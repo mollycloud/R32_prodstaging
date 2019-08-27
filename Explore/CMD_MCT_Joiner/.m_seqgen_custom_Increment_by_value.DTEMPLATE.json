@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "8yaKWRM2cM3gBhRkOmVOok",
+    "name" : "m_seqgen_custom_Increment_by_value",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W170000000000S2"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "seqgen with custom increment by value of 100",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "lGzwncPh8O8ixs6FuRbHwl",
+    "name" : "SK_Con_FF_Auto",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W0B000000000022"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Flat File connection for CMD testcases Automation",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "id" : "2lWmj4xBq9riGAnKou8ngK",
+    "name" : "SK_Con_MySQL_Auto",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W0B000000000023"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "MySQL ODQAUTF8 connection for CMD testcases automation",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}
