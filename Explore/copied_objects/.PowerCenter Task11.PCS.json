@@ -1,0 +1,67 @@
+{
+  "objectInfo" : {
+    "id" : "7AlVdZnYCKod3Cecr9vOAw",
+    "name" : "PowerCenter Task11",
+    "type" : "PCS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W0K00000000000L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "aB3CoeKOcI3lQyAotEmCc6",
+    "name" : "SUSELX12001",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W2500000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "2lWmj4xBq9riGAnKou8ngK",
+    "name" : "SK_Con_MySQL_Auto",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000W0B000000000023"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "MySQL ODQAUTF8 connection for CMD testcases automation",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
