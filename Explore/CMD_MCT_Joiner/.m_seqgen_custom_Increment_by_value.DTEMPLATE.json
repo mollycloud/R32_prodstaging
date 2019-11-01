@@ -16,7 +16,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "seqgen with custom increment by value of 100",
+        "description" : "seqgen with custom increment by value of 100aaa",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
@@ -41,7 +41,8 @@
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }
-    }
+    },
+    "path" : "/SYS"
   }, {
     "id" : "2lWmj4xBq9riGAnKou8ngK",
     "name" : "SK_Con_MySQL_Auto",
@@ -60,6 +61,7 @@
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }
-    }
+    },
+    "path" : "/SYS"
   } ]
 }
